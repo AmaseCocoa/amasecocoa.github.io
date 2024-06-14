@@ -1,0 +1,36 @@
+.list-tit {
+    background: #99bdde;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: .9em;
+    line-height: 2;
+    margin: 0;
+    padding: .2em 1em;
+    text-align: center;
+    width: fit-content;
+}
+
+.list-box {
+    margin-left: 35px;
+    border: 2px solid #99bdde;
+    border-radius: 0 10px 10px 10px;
+    line-height: 2;
+    margin: 0 0 1.5em;
+}
+
+.list-design {
+    list-style-type: disc;
+}
+
+.list-design li {
+    margin-top: 10px;
+}
+
+.list-design li:first-of-type {
+    margin-top: 0;
+}
+
+.list-design li::marker {
+    color: #99bdde;
+}
